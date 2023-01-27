@@ -1,1 +1,1 @@
-$("#loader").delay(3600).fadeOut("slow");
+$("#loader").delay(3000).fadeOut("slow");

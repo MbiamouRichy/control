@@ -137,7 +137,7 @@ header .logo-div .logo img{
     list-style: none;
 }
 nav li{
-  margin: 15px;
+  margin-left: 46px;
 }
 nav li a{
   text-decoration: none;
@@ -148,7 +148,12 @@ nav li a{
   width: 87px;
   height: 25px;
 }
+
+
+/*================= boutpon get started ====================*/
+
 button{
+    cursor: pointer;
     color: white;
     border: none;
     width: 150px;
@@ -166,7 +171,7 @@ button{
 ======================================================================*/     
 
 .main{
-    padding-top: 140px;
+    padding-top: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -210,7 +215,7 @@ button{
 
 
 .block_used{
-padding-top: 200px;
+padding-top: 150px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -228,11 +233,66 @@ align-items: center;
  color: #000000;
 }
 .logo_block_used{
-    margin-top: 83px;
+    margin-top: 53px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     width: 916.48px;
     height: 50.25px;
+}
+
+
+/*======================================================================
+       BLOCK GET PEACE...
+======================================================================*/ 
+
+.get_peace{
+ margin-top: 100px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.get_peace_h2{
+ text-align: center;
+ width: 551px;
+ height: 104px;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 42px;
+ line-height: 123%;
+ letter-spacing: -0.84px;
+ color: #000000;
+}
+.get_peace_div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.get_peace_div1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.get_peace_div1_h3{
+  width: 403px;
+  height: 87px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.84px;
+  color: #191919;
+}
+.get_peace_div1_p{
+width: 383px;
+height: 84px;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+color: #191919;
+margin-top: 25px;
 }

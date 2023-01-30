@@ -3,7 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: "Montserrat", sans-serif;
+}
+header, main{
+    padding: 0 59px;
+}
 /*======================================================================
        LOADER
 ======================================================================*/     
@@ -88,38 +93,27 @@
 
 
 /*======================================================================
-       MAIN
-======================================================================*/     
-main{
-    width: 100vw;
-    height: 100%;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-/*======================================================================
        HEADER
-======================================================================*/     
+======================================================================*/    
 header{
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 60px 5px;
 }
 header .logo-div{
     float: left;
     width: 40%;
-    border: 1px solid red;
 }
 header .logo-div .logo{
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 header .logo-div .logo img{
-    width: 115px;
+    width: 135px;
     height: 32px;
 }
 .navbar{
@@ -133,7 +127,7 @@ header .logo-div .logo img{
     display: flex;
     flex-direction: row;
     align-self: flex-end;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .nav{
     display: flex;
@@ -143,9 +137,7 @@ header .logo-div .logo img{
     list-style: none;
 }
 nav li{
-  margin: 5px;
- width: 95px;
- height: 25px;
+  margin: 15px;
 }
 nav li a{
   text-decoration: none;
@@ -153,15 +145,94 @@ nav li a{
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
+  width: 87px;
+  height: 25px;
 }
 button{
     color: white;
     border: none;
-    height: 25px;
-    width: 113px;
+    width: 150px;
+    height: 44px;
     line-height: 25px;
     border-radius: 8px;
     background-color: black;
     font-weight: 700;
     font-size: 18px;
+}
+
+
+/*======================================================================
+       BLOCK USEFUL REWWARD...
+======================================================================*/     
+
+.main{
+    padding-top: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.texte_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 512px;
+}
+.texte_main_h1{
+ width: 463px;
+ height: 163px;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 50px;
+ line-height: 123%;
+ letter-spacing: -0.84px;
+ color: #000000;
+}
+.texte_main_p{
+    margin-top: 25px;
+ width: 364px;
+ height: 96px;
+ font-style: normal;
+ font-weight: 300;
+ font-size: 23px;
+ line-height: 139.5%;
+ letter-spacing: -0.0485739px;
+ color: #000000;  
+}
+.btn_main{
+    margin-top: 44px;
+}
+
+
+/*======================================================================
+       BLOCK USED BY...
+======================================================================*/ 
+
+
+.block_used{
+padding-top: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.texte_block_used{
+ width: 560px;
+ height: 104px;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 42px;
+ line-height: 123%;
+ text-align: center;
+ letter-spacing: -0.84px;
+ color: #000000;
+}
+.logo_block_used{
+    margin-top: 83px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 916.48px;
+    height: 50.25px;
 }

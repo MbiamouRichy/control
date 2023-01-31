@@ -225,7 +225,7 @@ align-items: center;
  width: 560px;
  height: 104px;
  font-style: normal;
- font-weight: 500;
+ font-weight: 600;
  font-size: 42px;
  line-height: 123%;
  text-align: center;
@@ -259,7 +259,7 @@ align-items: center;
  width: 551px;
  height: 104px;
  font-style: normal;
- font-weight: 500;
+ font-weight: 600;
  font-size: 42px;
  line-height: 123%;
  letter-spacing: -0.84px;
@@ -287,7 +287,7 @@ align-items: center;
   width: 403px;
   height: 87px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 36px;
   line-height: 43px;
   letter-spacing: -0.84px;
@@ -310,13 +310,13 @@ height: 177.34px;
 left: 25px;
 top: 25px;
 }
-.get_peace_block_image1{
+.get_peace_block_image1,.built_for_creative_image1{
     position: relative;
     width: 603px;
     height: 546px;
     padding: 57px 0px 0px 47px;
 }
-.get_peace_block_image{
+.get_peace_block_image,.built_for_creative_image{
     width: 561px;
     height: 489px;
     background: url("../image/3.png"), #212121;
@@ -374,7 +374,7 @@ color: rgba(255, 255, 255, 0.8);
 width: 587px;
 height: 52px;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 42px;
 line-height: 123%;
 text-align: center;
@@ -408,7 +408,7 @@ letter-spacing: -0.84px;
 width: 245px;
 height: 30px;
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 24px;
 line-height: 123%;
 letter-spacing: -0.84px;
@@ -428,3 +428,58 @@ color: #191919;
 /*======================================================================
        BLOCK BUILT FOR CREATIVE...
 ======================================================================*/ 
+
+.built_for_creative1{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.built_for_div1_h2{
+width: 317px;
+height: 88px;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 123%;
+letter-spacing: -0.84px;
+color: #000000;
+}
+.built_for_div1_p{
+width: 335px;
+height: 177px;
+font-style: normal;
+font-weight: 300;
+font-size: 25.08px;
+line-height: 39px;
+color: #191919;
+margin-top: 25px;
+}
+.built_for_creative_image{
+    background: url(../image//4.png), #D1EE1E;
+}
+.built_for_color{
+    width: 244.7px;
+    background: #D1EE1E;
+}
+.built_for_color .title{
+    width: 179px;
+    height: 33px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24.1683px;
+    line-height: 32px;
+    color: #000000;
+}
+.built_for_color .title_sub{
+width: 161.14px;
+height: 27.06px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14.0982px;
+line-height: 26px;
+color: #000000;
+}

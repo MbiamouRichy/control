@@ -354,3 +354,77 @@ font-size: 14px;
 line-height: 26px;
 color: rgba(255, 255, 255, 0.8);
 }
+
+
+/*======================================================================
+       BLOCK CHEKING ZERO...
+======================================================================*/ 
+
+.checking_zero_block{
+    margin-top: 100px;
+}
+.checking_zero_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checking_zero_block_h2{
+width: 587px;
+height: 52px;
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 123%;
+text-align: center;
+letter-spacing: -0.84px;
+ color: #000000;
+}
+.checking_zero_block_div{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.checking_zero_block_div1_div1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.checking_zero_block_div1_div2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.c_z_b_d_d2_h3{
+width: 245px;
+height: 30px;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 123%;
+letter-spacing: -0.84px;
+color: #000000;
+}
+.c_z_b_d_d2_p{
+width: 278px;
+height: 56px;
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 28px;
+color: #191919;
+}
+
+
+/*======================================================================
+       BLOCK BUILT FOR CREATIVE...
+======================================================================*/ 

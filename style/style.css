@@ -485,3 +485,35 @@ font-size: 14.0982px;
 line-height: 26px;
 color: #000000;
 }
+
+
+/*======================================================================
+       BLOCK LET'S GROW...
+======================================================================*/ 
+
+.let_grow{
+    margin-top: 100px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #212121;
+}
+.let_grow_h2{
+    width: 560px;
+    height: 104px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 123%;
+    text-align: center;
+    letter-spacing: -0.84px;
+    color: #FFFFFF;
+    margin: 50px 0;
+}
+.let_grow_btn{
+    margin-bottom: 49px;
+    background: #D1EE1E;
+    color: #000000;
+}

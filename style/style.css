@@ -7,7 +7,7 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 main{
-    height: 100vh;
+    overflow: hidden;
     width: 100%;
     padding: 0 59px;
 }
@@ -150,8 +150,6 @@ nav li a{
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
-  width: 87px;
-  height: 25px;
 }
 
 
@@ -275,19 +273,14 @@ align-items: center;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 16px;
+  gap: 20px;
 }
 .get_peace_div1{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
-.marge1{
-    margin-right: 97px;
-    margin-left: 40px;
-}
-.marge2{
-    margin-left: 97px;
-}
+
 .get_peace_div1_h3{
   width: 403px;
   height: 87px;
@@ -525,10 +518,10 @@ color: #000000;
 /*======================================================================
        FOOTER
 ======================================================================*/ 
-footer{
+.footer{
     margin-top: 100px;
 }
-footer,.footer_div1,.footer_div2{
+.footer,.footer_div1,.footer_div2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -542,7 +535,7 @@ footer,.footer_div1,.footer_div2{
 .footer_div1 .font a{
     text-decoration: none;
 }
-footer img{
+.footer img{
     width: 135px;
     height: 32px;
 }
@@ -584,4 +577,28 @@ font-weight: 500;
 font-size: 12.4444px;
 line-height: 21px;
 color: #060303;
+}
+
+
+/*======================================================================
+       COPYRIGTH
+======================================================================*/ 
+footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: start;
+    height: 118.22px;
+    background: #212121;
+    padding: 0 72px;
+}
+footer .copy{
+margin-top: 28px;
+height: 19px;
+font-style: normal;
+font-weight: 700;
+font-size: 12.4444px;
+line-height: 19px;
+color: #D1EE1E;
 }
